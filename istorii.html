@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Истории — Дворжики в интернете</title>
+  <meta name="description" content="Семейные истории Дворжиков: воспоминания о родных, детстве, школе и важных событиях. Автор — Алла Басс (Дворжицкая-Ларина) и другие.">
+  <link rel="canonical" href="https://dvorzhik.github.io/family/istorii.html">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Истории — Дворжики в интернете">
+  <meta property="og:description" content="Семейные истории Дворжиков: воспоминания о родных, детстве и школе.">
+  <meta property="og:url" content="https://dvorzhik.github.io/family/istorii.html">
+  <meta property="og:image" content="https://dvorzhik.github.io/family/assets/img/istorii/Семья1.png">
+  <meta property="og:locale" content="ru_RU">
+
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/img/favicon-192.png">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <nav class="nav" aria-label="Основная навигация">
+        <a class="nav__brand" href="index.html">
+          <span>Дворжики</span>
+        </a>
+        <button class="nav__toggle" aria-label="Открыть меню" aria-expanded="false" aria-controls="nav-list">
+          <span></span>
+        </button>
+        <ul class="nav__list" id="nav-list">
+          <li><a class="nav__link" href="index.html">Начало</a></li>
+          <li><a class="nav__link is-active" href="istorii.html">Истории</a></li>
+          <li><a class="nav__link" href="zhurnaly.html">Журналы</a></li>
+          <li><a class="nav__link" href="stati.html">Статьи</a></li>
+          <li><a class="nav__link" href="video.html">Видео</a></li>
+          <li><a class="nav__link" href="foto.html">Фото</a></li>
+          <li><a class="nav__link" href="kontakty.html">Контакты</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="container">
+        <h1 class="section__title reveal">Истории Дворжиков</h1>
+        <p class="section__subtitle reveal">
+          Воспоминания о родных, детстве, школе и важных событиях семьи.
+          Большинство историй написаны Аллой Анатольевной Басс (Дворжицкой, Лариной).
+        </p>
+
+        <!-- Поиск -->
+        <div class="text-col reveal" style="margin-bottom:40px;">
+          <label class="visually-hidden" for="story-search">Поиск по историям</label>
+          <input id="story-search" type="search" data-filter
+                 placeholder="Поиск по названию истории…"
+                 style="width:100%; padding:14px 20px; font-size:1rem; font-family:inherit;
+                        border:1px solid var(--border); border-radius:999px; background:var(--surface); color:var(--text);">
+        </div>
+
+        <div class="grid grid--3">
+          <article class="card reveal" data-filter-item="Фото разных лет Алла Басс комментарии фотографии">
+            <div class="card__media">
+              <img src="assets/img/istorii/фоторазныхлет1.jpg" alt="Фото разных лет" loading="lazy">
+            </div>
+            <div class="card__body">
+              <div class="card__meta">Алла Басс</div>
+              <h3 class="card__title">Фото разных лет</h3>
+              <p class="card__text">Мама (она же бабушка) Алёна комментирует фотографии разных лет — трогательный рассказ о целой жизни.</p>
+              <a class="card__link" href="stories/foto-raznyh-let.html">Читать</a>
+            </div>
+          </article>
+
+          <article class="card reveal" data-filter-item="Это было давно свадьба Александр Дворжицкий 1991">
+            <div class="card__media">
+              <img src="assets/img/istorii/1991-07-06_050.jpg" alt="Это было давно" loading="lazy">
+            </div>
+            <div class="card__body">
+              <div class="card__meta">Александр Дворжицкий</div>
+              <h3 class="card__title">Это было давно…</h3>
+              <p class="card__text">Воспоминания в годовщину свадьбы Ирины и Александра Дворжицких — о времени, которого уже нет.</p>
+              <a class="card__link" href="stories/eto-bylo-davno.html">Читать</a>
+            </div>
+          </article>
+
+          <article class="card reveal" data-filter-item="О моем брате Владимир Басс память">
+            <div class="card__media">
+              <img src="assets/img/istorii/Володя1.jpg" alt="О моем брате" loading="lazy">
+            </div>
+            <div class="card__body">
+              <div class="card__meta">Алла Басс</div>
+              <h3 class="card__title">О моем брате</h3>
+              <p class="card__text">Памяти Владимира Басс (октябрь 2020) — рассказ сестры о брате, которого она нянчила с трёх лет.</p>
+              <a class="card__link" href="stories/o-moem-brate.html">Читать</a>
+            </div>
+          </article>
+
+          <article class="card reveal" data-filter-item="Друг мой Колька Николай Дворжицкий память">
+            <div class="card__media">
+              <img src="assets/img/istorii/Николай1.png" alt="Друг мой, Колька!" loading="lazy">
+            </div>
+            <div class="card__body">
+              <div class="card__meta">Алла Басс</div>
+              <h3 class="card__title">Друг мой, Колька!</h3>
+              <p class="card__text">Памяти Дворжицкого Николая Константиновича (1947–2014) — история любви, дружбы и общей жизни.</p>
+              <a class="card__link" href="stories/drug-moy-kolka.html">Читать</a>
+            </div>
+          </article>
+
+          <article class="card reveal" data-filter-item="Тетя Вера Зеленина Вера Павловна">
+            <div class="card__media">
+              <img src="assets/img/istorii/Вера1.png" alt="Тётя Вера" loading="lazy">
+            </div>
+            <div class="card__body">
+              <div class="card__meta">Алла Басс</div>
+              <h3 class="card__title">Тётя Вера</h3>
+              <p class="card__text">Воспоминания о Зелениной Вере Павловне (1900–1980) — тёте мамы, прошедшей войну.</p>
+              <a class="card__link" href="stories/tetya-vera.html">Читать</a>
+            </div>
+          </article>
+
+          <article class="card reveal" data-filter-item="Артур Басс Артур Михайлович">
+            <div class="card__media">
+              <img src="assets/img/istorii/Артур1.png" alt="Артур Басс" loading="lazy">
+            </div>
+            <div class="card__body">
+              <div class="card__meta">Алла Басс</div>
+              <h3 class="card__title">Артур Басс</h3>
+              <p class="card__text">Воспоминания об Артуре Михайловиче Басс (1936–2014) — младшем папином брате.</p>
+              <a class="card__link" href="stories/artur-bass.html">Читать</a>
+            </div>
+          </article>
+
+          <article class="card reveal" data-filter-item="Дина Басс Дина Михайловна">
+            <div class="card__media">
+              <img src="assets/img/istorii/Дина1.png" alt="Дина Басс" loading="lazy">
+            </div>
+            <div class="card__body">
+              <div class="card__meta">Алла Басс</div>
+              <h3 class="card__title">Дина Басс</h3>
+              <p class="card__text">Воспоминания о Дине Михайловне Басс (1920–2001) — единственной и горячо любимой тёте.</p>
+              <a class="card__link" href="stories/dina-bass.html">Читать</a>
+            </div>
+          </article>
+
+          <article class="card reveal" data-filter-item="Старшие в роду Басс Михаил Борисович Горелик Рива Анатолий Яков">
+            <div class="card__media">
+              <img src="assets/img/istorii/семья0.jpg" alt="Старшие в роду Басс" loading="lazy">
+            </div>
+            <div class="card__body">
+              <div class="card__meta">Алла Басс</div>
+              <h3 class="card__title">Старшие в роду Басс</h3>
+              <p class="card__text">Воспоминания о Басс Михаиле Борисовиче, Горелик Риве Борисовне, Басс Анатолии и Якове Михайловичах.</p>
+              <a class="card__link" href="stories/starshie-v-rodu-bass.html">Читать</a>
+            </div>
+          </article>
+
+          <article class="card reveal" data-filter-item="О бабушке Наде Мельникова Надежда Федоровна">
+            <div class="card__media">
+              <img src="assets/img/istorii/Надежда1.png" alt="О бабушке Наде" loading="lazy">
+            </div>
+            <div class="card__body">
+              <div class="card__meta">Алла Басс</div>
+              <h3 class="card__title">О бабушке Наде</h3>
+              <p class="card__text">Воспоминания о Мельниковой Надежде Фёдоровне (1914–2006) — бабушке, хранительнице семьи.</p>
+              <a class="card__link" href="stories/o-babushke-nade.html">Читать</a>
+            </div>
+          </article>
+
+          <article class="card reveal" data-filter-item="О маме Мельникова Надежда Федоровна">
+            <div class="card__media">
+              <img src="assets/img/istorii/Инна_Эмма.png" alt="О маме" loading="lazy">
+            </div>
+            <div class="card__body">
+              <div class="card__meta">Алла Басс</div>
+              <h3 class="card__title">О маме</h3>
+              <p class="card__text">Воспоминания о Мельниковой Надежде Фёдоровне (1914–2006) — о маме, её характере и судьбе.</p>
+              <a class="card__link" href="stories/o-mame.html">Читать</a>
+            </div>
+          </article>
+
+          <article class="card reveal" data-filter-item="Воспоминания о школе Алла Басс педагогика">
+            <div class="card__media">
+              <img src="assets/img/istorii/семья7.jpg" alt="Воспоминания о школе" loading="lazy">
+            </div>
+            <div class="card__body">
+              <div class="card__meta">Алла Басс</div>
+              <h3 class="card__title">Воспоминания о школе</h3>
+              <p class="card__text">Вспоминает Басс (Дворжицкая, Ларина) Алла Анатольевна — о шестидесяти годах педагогического пути.</p>
+              <a class="card__link" href="stories/vospominaniya-o-shkole.html">Читать</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <div class="footer__title">Дворжики в интернете</div>
+          <p class="footer__text">
+            Семейный архив: истории, воспоминания, фотографии, журнал «Дворжик» и видео.
+            Храним память рода для будущих поколений.
+          </p>
+        </div>
+        <div>
+          <div class="footer__title">Разделы</div>
+          <ul class="footer__list">
+            <li><a href="istorii.html">Истории</a></li>
+            <li><a href="zhurnaly.html">Журналы</a></li>
+            <li><a href="stati.html">Статьи</a></li>
+            <li><a href="video.html">Видео</a></li>
+            <li><a href="foto.html">Фото</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer__title">Связь</div>
+          <ul class="footer__list">
+            <li><a href="https://www.dvorzhik.ru" target="_blank" rel="noopener">dvorzhik.ru</a></li>
+            <li><a href="https://t.me/dvorzhiki" target="_blank" rel="noopener">Telegram-канал</a></li>
+            <li><a href="kontakty.html">Все контакты</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        © Дворжики. Семейный архив. Материалы публикуются с разрешения авторов.
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

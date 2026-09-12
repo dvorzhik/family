@@ -1,0 +1,6 @@
+# Служебные и исходные файлы — не публикуем на GitHub Pages
+google sites/
+_*.py
+_*.json
+*.md
+!README.md
